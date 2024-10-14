@@ -1,0 +1,85 @@
+body{
+    padding: 0.5rem 5rem;
+    background-color:  hsl(257, 40%, 49%);
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body::after{
+    
+  content: "";
+  position: absolute;
+  width: 1200px;
+  height: 1000px;
+  background-image: url("images/bg-desktop.svg") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -40px;
+  left: 1px;
+  z-index: -1
+}
+
+.huddle-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.huddle-container h1{
+    color: white;
+}
+ion-icon {
+    color: rgba(255, 255, 255, 0.651);
+  }
+  .first-container{
+    display: flex;
+    gap: 4rem;
+    padding-top: 2rem;
+  }
+  .content{
+    width: 100%;
+    margin-top: 1rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  .content h1{
+    line-height: 1.5;
+    color: #ffff;
+    
+  }
+  .content p{
+    line-height: 1.5;
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.651);
+  }
+  .btn{
+   background-color: hsl(300, 69%, 71%);
+    width: 40%;
+    padding: 13px 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid hsl(300, 69%, 71%);
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  }
+  .footer{
+    text-align: right;
+    margin-top: -1rem;
+ }
+ .social-icon{
+    margin: 5px 5px ;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 5px;
+    color: white;
+  }
+  .social{
+    margin: 5px 5px ;
+    border: 1px solid hsl(300, 69%, 71%);
+    border-radius: 100px;
+    padding: 5px;
+    color: hsl(300, 69%, 71%);
+  }
+  
