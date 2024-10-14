@@ -1,5 +1,5 @@
 body{
-    padding: 5rem 5rem;
+    padding: .5rem 5rem;
     background-color:  hsl(257, 40%, 49%);
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body::after{
   background-image: url("images/bg-desktop.svg") ;
   background-size: contain;
   background-repeat: no-repeat;
-  top: 40px;
+  top: -40px;
   left: 1px;
   z-index: -1
 }
