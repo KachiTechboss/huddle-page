@@ -1,6 +1,6 @@
 @media (max-width: 375px){
     body{
-        padding: 1px 20px 20px  20px;
+        padding: 1px 20px 5px  20px;
         background-color:  hsl(257, 40%, 49%);
         justify-content: center;
         align-items: center;
